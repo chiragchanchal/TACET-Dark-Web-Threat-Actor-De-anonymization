@@ -153,17 +153,17 @@ export default function Compare() {
             <div className="mt-5 grid grid-cols-1 gap-6 md:grid-cols-[220px_1fr]">
               <div>
                 <div className={cn('num font-mono text-4xl font-semibold tracking-tight', v.cls.split(' ').pop())}>
-                  {Math.round(result.confidence)}%
+                  {Math.round(result.confidence || 0)}%
                 </div>
                 <div className="mt-1 text-[11px] uppercase tracking-[0.12em] text-zinc-500">confidence</div>
               </div>
               <div>
                 <div className="h-[6px] overflow-hidden rounded-full bg-white/[0.06]">
-                  <div className={cn('h-full rounded-full', v.bar)} style={{ width: `${result.confidence}%` }} />
+                  <div className={cn('h-full rounded-full', v.bar)} style={{ width: `${Math.min(100, Math.max(0, result.confidence || 0))}%` }} />
                 </div>
                 <div className="mt-2 text-[12px] text-zinc-500">
-                  Component split — artifact {Math.round(result.components?.artifact * 100)}% · stylometry{' '}
-                  {Math.round(result.components?.style * 100)}% · timezone {Math.round(result.components?.timezone * 100)}%
+                  Component split — artifact {Math.round((result.components?.artifact || 0) * 100)}% · stylometry{' '}
+                  {Math.round((result.components?.style || 0) * 100)}% · timezone {Math.round((result.components?.timezone || 0) * 100)}%
                 </div>
               </div>
             </div>

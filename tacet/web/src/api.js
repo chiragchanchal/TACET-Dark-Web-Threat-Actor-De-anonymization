@@ -254,16 +254,60 @@ function handleDemoFallback(path, opts = {}) {
   }
 
   if (pathname === '/analysis/compare') {
+    const aId = searchParams.get('a');
+    const bId = searchParams.get('b');
+    const actorA = DEMO_DATA.actorDetails?.[aId] || DEMO_DATA.actors?.find((a) => a.id === aId) || DEMO_DATA.actors?.[0];
+    const actorB = DEMO_DATA.actorDetails?.[bId] || DEMO_DATA.actors?.find((a) => a.id === bId) || DEMO_DATA.actors?.[1];
+
+    const hits = [];
+    const addrsA = new Set((actorA?.crypto || []).map((x) => (typeof x === 'string' ? x : x.value || x.address || '').toLowerCase()).filter(Boolean));
+    const addrsB = new Set((actorB?.crypto || []).map((x) => (typeof x === 'string' ? x : x.value || x.address || '').toLowerCase()).filter(Boolean));
+    for (const k of addrsA) {
+      if (addrsB.has(k)) hits.push({ kind: 'CRYPTO', value: k, weight: 1.0 });
+    }
+
+    const pgpA = new Set((actorA?.pgpKeys || []).map((x) => String(x).toLowerCase()).filter(Boolean));
+    const pgpB = new Set((actorB?.pgpKeys || []).map((x) => String(x).toLowerCase()).filter(Boolean));
+    for (const k of pgpA) {
+      if (pgpB.has(k)) hits.push({ kind: 'PGP', value: k, weight: 1.0 });
+    }
+
+    const tgA = new Set((actorA?.telegrams || []).map((x) => String(x).toLowerCase()).filter(Boolean));
+    const tgB = new Set((actorB?.telegrams || []).map((x) => String(x).toLowerCase()).filter(Boolean));
+    for (const k of tgA) {
+      if (tgB.has(k)) hits.push({ kind: 'TELEGRAM', value: `@${k}`, weight: 0.9 });
+    }
+
+    const emA = new Set((actorA?.emails || []).map((x) => String(x).toLowerCase()).filter(Boolean));
+    const emB = new Set((actorB?.emails || []).map((x) => String(x).toLowerCase()).filter(Boolean));
+    for (const k of emA) {
+      if (emB.has(k)) hits.push({ kind: 'EMAIL', value: k, weight: 0.85 });
+    }
+
+    const artifactScore = hits.length > 0 ? Math.min(1, hits.reduce((acc, h) => acc + h.weight, 0) / 2) : 0;
+    const styleScore = hits.length > 0 ? 0.84 : 0.28;
+    const tzScore = 0.62;
+
+    const raw = 0.42 * artifactScore + 0.36 * styleScore + 0.12 * tzScore;
+    const evidenceCount = hits.length;
+    const confidence = evidenceCount > 0 ? Math.min(98, Math.round(raw * 100 * 1.3)) : Math.max(14, Math.round(raw * 100));
+
+    let verdict = 'INSUFFICIENT';
+    if (confidence >= 75) verdict = 'LIKELY_SAME_ACTOR';
+    else if (confidence >= 55) verdict = 'PROBABLE_LINK';
+    else if (confidence >= 35) verdict = 'WEAK_LINK';
+
     return {
-      score: 87,
-      attributionScore: 87,
-      stylometrySimilarity: 0.82,
-      sharedInfrastructure: { crypto: 1, pgp: 0, telegram: 1 },
-      evidence: [
-        'Shared BTC cluster (Base58Check verified)',
-        'Matching timezone peak (19:00 UTC)',
-        'Stylometric vocabulary & punctuation overlap: 82%',
-      ],
+      a: { handle: actorA?.primaryHandle || actorA?.handle || 'Identity A', id: actorA?.id || aId },
+      b: { handle: actorB?.primaryHandle || actorB?.handle || 'Identity B', id: actorB?.id || bId },
+      confidence,
+      components: {
+        artifact: +artifactScore.toFixed(3),
+        style: +styleScore.toFixed(3),
+        timezone: +tzScore.toFixed(3),
+      },
+      artifactHits: hits,
+      verdict,
     };
   }
 
