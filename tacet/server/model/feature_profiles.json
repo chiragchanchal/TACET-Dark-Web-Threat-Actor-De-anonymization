@@ -1,0 +1,1182 @@
+{
+ "adam": [
+  {
+   "feature": "israel",
+   "kind": "w",
+   "coef": 0.6565
+  },
+  {
+   "feature": "favors",
+   "kind": "w",
+   "coef": 0.652
+  },
+  {
+   "feature": "harvard",
+   "kind": "w",
+   "coef": 0.6517
+  },
+  {
+   "feature": "shostack",
+   "kind": "w",
+   "coef": 0.6336
+  },
+  {
+   "feature": "for drugs",
+   "kind": "w",
+   "coef": 0.6336
+  },
+  {
+   "feature": "shostack adam",
+   "kind": "w",
+   "coef": 0.6336
+  },
+  {
+   "feature": "sexual favors",
+   "kind": "w",
+   "coef": 0.6336
+  },
+  {
+   "feature": "sure wouldn",
+   "kind": "w",
+   "coef": 0.6336
+  },
+  {
+   "feature": "harvard edu",
+   "kind": "w",
+   "coef": 0.6336
+  },
+  {
+   "feature": "congress john",
+   "kind": "w",
+   "coef": 0.6336
+  },
+  {
+   "feature": "perry barlow",
+   "kind": "w",
+   "coef": 0.6336
+  },
+  {
+   "feature": "wouldn waste",
+   "kind": "w",
+   "coef": 0.6336
+  },
+  {
+   "feature": "had budget",
+   "kind": "w",
+   "coef": 0.6336
+  }
+ ],
+ "andy": [
+  {
+   "feature": "andy",
+   "kind": "c",
+   "coef": 0.5879
+  },
+  {
+   "feature": "ndy",
+   "kind": "c",
+   "coef": 0.583
+  },
+  {
+   "feature": "note that",
+   "kind": "w",
+   "coef": 0.5587
+  },
+  {
+   "feature": "-andy",
+   "kind": "c",
+   "coef": 0.5431
+  },
+  {
+   "feature": " -and",
+   "kind": "c",
+   "coef": 0.5287
+  },
+  {
+   "feature": " -an",
+   "kind": "c",
+   "coef": 0.5287
+  },
+  {
+   "feature": " -a",
+   "kind": "c",
+   "coef": 0.5287
+  },
+  {
+   "feature": "-and",
+   "kind": "c",
+   "coef": 0.4909
+  },
+  {
+   "feature": "-an",
+   "kind": "c",
+   "coef": 0.4834
+  },
+  {
+   "feature": ". -a",
+   "kind": "c",
+   "coef": 0.4749
+  },
+  {
+   "feature": ". -an",
+   "kind": "c",
+   "coef": 0.4749
+  }
+ ],
+ "brian": [
+  {
+   "feature": "the bible",
+   "kind": "w",
+   "coef": 0.9092
+  },
+  {
+   "feature": "bria",
+   "kind": "c",
+   "coef": 0.5855
+  },
+  {
+   "feature": "brian",
+   "kind": "c",
+   "coef": 0.5855
+  },
+  {
+   "feature": "brian kendig",
+   "kind": "w",
+   "coef": 0.5146
+  },
+  {
+   "feature": "kendig",
+   "kind": "w",
+   "coef": 0.5146
+  },
+  {
+   "feature": "donnell",
+   "kind": "w",
+   "coef": 0.4955
+  },
+  {
+   "feature": "brian donnell",
+   "kind": "w",
+   "coef": 0.4955
+  },
+  {
+   "feature": "rian",
+   "kind": "c",
+   "coef": 0.4751
+  },
+  {
+   "feature": " bria",
+   "kind": "c",
+   "coef": 0.473
+  },
+  {
+   "feature": "bri",
+   "kind": "c",
+   "coef": 0.3988
+  }
+ ],
+ "cramer": [
+  {
+   "feature": "\n# ",
+   "kind": "c",
+   "coef": 1.2665
+  },
+  {
+   "feature": "# #",
+   "kind": "c",
+   "coef": 1.1039
+  },
+  {
+   "feature": " # ",
+   "kind": "c",
+   "coef": 1.026
+  },
+  {
+   "feature": "\n# #",
+   "kind": "c",
+   "coef": 0.9538
+  },
+  {
+   "feature": "homosexuals",
+   "kind": "w",
+   "coef": 0.9427
+  },
+  {
+   "feature": "homosexual",
+   "kind": "w",
+   "coef": 0.8784
+  },
+  {
+   "feature": "# # ",
+   "kind": "c",
+   "coef": 0.8517
+  },
+  {
+   "feature": "\n# # ",
+   "kind": "c",
+   "coef": 0.7569
+  },
+  {
+   "feature": "cramer",
+   "kind": "w",
+   "coef": 0.7363
+  },
+  {
+   "feature": "states",
+   "kind": "w",
+   "coef": 0.6165
+  },
+  {
+   "feature": ".\n# ",
+   "kind": "c",
+   "coef": 0.5874
+  },
+  {
+   "feature": ".\n#",
+   "kind": "c",
+   "coef": 0.5874
+  }
+ ],
+ "egreen": [
+  {
+   "feature": "ed green",
+   "kind": "w",
+   "coef": 0.8456
+  },
+  {
+   "feature": "ed",
+   "kind": "w",
+   "coef": 0.7896
+  },
+  {
+   "feature": "biker ed",
+   "kind": "w",
+   "coef": 0.4994
+  },
+  {
+   "feature": "seemed like",
+   "kind": "w",
+   "coef": 0.4994
+  },
+  {
+   "feature": "like her",
+   "kind": "w",
+   "coef": 0.4994
+  },
+  {
+   "feature": "919 460",
+   "kind": "w",
+   "coef": 0.4994
+  },
+  {
+   "feature": "on get",
+   "kind": "w",
+   "coef": 0.4994
+  },
+  {
+   "feature": "0111 919",
+   "kind": "w",
+   "coef": 0.4994
+  }
+ ],
+ "golchowy": [
+  {
+   "feature": "gerald",
+   "kind": "w",
+   "coef": 2.7174
+  },
+  {
+   "feature": " gera",
+   "kind": "c",
+   "coef": 0.8141
+  },
+  {
+   "feature": "erald",
+   "kind": "c",
+   "coef": 0.8141
+  },
+  {
+   "feature": "rald",
+   "kind": "c",
+   "coef": 0.8141
+  },
+  {
+   "feature": "geral",
+   "kind": "c",
+   "coef": 0.8141
+  },
+  {
+   "feature": "gera",
+   "kind": "c",
+   "coef": 0.7915
+  },
+  {
+   "feature": "...",
+   "kind": "c",
+   "coef": 0.7871
+  },
+  {
+   "feature": ". ger",
+   "kind": "c",
+   "coef": 0.7613
+  },
+  {
+   "feature": "ald",
+   "kind": "c",
+   "coef": 0.7492
+  },
+  {
+   "feature": ". ge",
+   "kind": "c",
+   "coef": 0.7468
+  },
+  {
+   "feature": " ger",
+   "kind": "c",
+   "coef": 0.7334
+  },
+  {
+   "feature": "hockey",
+   "kind": "w",
+   "coef": 0.7061
+  },
+  {
+   "feature": "canada",
+   "kind": "w",
+   "coef": 0.6429
+  },
+  {
+   "feature": "players",
+   "kind": "w",
+   "coef": 0.6176
+  }
+ ],
+ "gtoal": [
+  {
+   "feature": "hardware",
+   "kind": "w",
+   "coef": 0.8015
+  },
+  {
+   "feature": "encryption",
+   "kind": "w",
+   "coef": 0.7765
+  },
+  {
+   "feature": "speech",
+   "kind": "w",
+   "coef": 0.7067
+  },
+  {
+   "feature": "denning",
+   "kind": "w",
+   "coef": 0.6661
+  },
+  {
+   "feature": "the nsa",
+   "kind": "w",
+   "coef": 0.6468
+  },
+  {
+   "feature": "compression",
+   "kind": "w",
+   "coef": 0.609
+  }
+ ],
+ "henry": [
+  {
+   "feature": "launch",
+   "kind": "w",
+   "coef": 0.8461
+  },
+  {
+   "feature": "re",
+   "kind": "w",
+   "coef": 0.6044
+  },
+  {
+   "feature": "project",
+   "kind": "w",
+   "coef": 0.6042
+  },
+  {
+   "feature": "it",
+   "kind": "w",
+   "coef": 0.5352
+  },
+  {
+   "feature": "temperature",
+   "kind": "w",
+   "coef": 0.5281
+  },
+  {
+   "feature": "higher",
+   "kind": "w",
+   "coef": 0.5126
+  },
+  {
+   "feature": "the moon",
+   "kind": "w",
+   "coef": 0.4958
+  },
+  {
+   "feature": "rather",
+   "kind": "w",
+   "coef": 0.4691
+  }
+ ],
+ "i3150101": [
+  {
+   "feature": "benedikt",
+   "kind": "w",
+   "coef": 1.716
+  },
+  {
+   "feature": "deletion",
+   "kind": "w",
+   "coef": 1.1755
+  },
+  {
+   "feature": "writes deletion",
+   "kind": "w",
+   "coef": 0.8887
+  },
+  {
+   "feature": "writes",
+   "kind": "w",
+   "coef": 0.7766
+  },
+  {
+   "feature": "jaeger",
+   "kind": "w",
+   "coef": 0.6312
+  },
+  {
+   "feature": "nedik",
+   "kind": "c",
+   "coef": 0.5647
+  },
+  {
+   "feature": "ikt",
+   "kind": "c",
+   "coef": 0.5647
+  },
+  {
+   "feature": "dikt",
+   "kind": "c",
+   "coef": 0.5647
+  },
+  {
+   "feature": "nedi",
+   "kind": "c",
+   "coef": 0.5647
+  },
+  {
+   "feature": "enedi",
+   "kind": "c",
+   "coef": 0.5647
+  },
+  {
+   "feature": "bened",
+   "kind": "c",
+   "coef": 0.5647
+  },
+  {
+   "feature": "edikt",
+   "kind": "c",
+   "coef": 0.5647
+  },
+  {
+   "feature": "edik",
+   "kind": "c",
+   "coef": 0.5483
+  },
+  {
+   "feature": "dik",
+   "kind": "c",
+   "coef": 0.5444
+  },
+  {
+   "feature": "bene",
+   "kind": "c",
+   "coef": 0.5068
+  }
+ ],
+ "jake": [
+  {
+   "feature": "israel",
+   "kind": "w",
+   "coef": 1.0886
+  },
+  {
+   "feature": "palestinean",
+   "kind": "w",
+   "coef": 0.6767
+  },
+  {
+   "feature": "jewish",
+   "kind": "w",
+   "coef": 0.6439
+  },
+  {
+   "feature": "rael",
+   "kind": "c",
+   "coef": 0.5041
+  },
+  {
+   "feature": "srael",
+   "kind": "c",
+   "coef": 0.5041
+  },
+  {
+   "feature": "srae",
+   "kind": "c",
+   "coef": 0.5041
+  },
+  {
+   "feature": "sra",
+   "kind": "c",
+   "coef": 0.5041
+  },
+  {
+   "feature": "israe",
+   "kind": "c",
+   "coef": 0.5041
+  },
+  {
+   "feature": "isra",
+   "kind": "c",
+   "coef": 0.5041
+  },
+  {
+   "feature": "rae",
+   "kind": "c",
+   "coef": 0.4925
+  }
+ ],
+ "keith": [
+  {
+   "feature": "writes",
+   "kind": "w",
+   "coef": 0.9919
+  },
+  {
+   "feature": "livesey",
+   "kind": "w",
+   "coef": 0.8637
+  },
+  {
+   "feature": "kei",
+   "kind": "c",
+   "coef": 0.8346
+  },
+  {
+   "feature": "keith",
+   "kind": "c",
+   "coef": 0.8346
+  },
+  {
+   "feature": "keit",
+   "kind": "c",
+   "coef": 0.8346
+  },
+  {
+   "feature": " kei",
+   "kind": "c",
+   "coef": 0.7239
+  },
+  {
+   "feature": " keit",
+   "kind": "c",
+   "coef": 0.7239
+  },
+  {
+   "feature": "eith",
+   "kind": "c",
+   "coef": 0.677
+  },
+  {
+   "feature": "eit",
+   "kind": "c",
+   "coef": 0.6519
+  },
+  {
+   "feature": "think that",
+   "kind": "w",
+   "coef": 0.6463
+  },
+  {
+   "feature": ". kei",
+   "kind": "c",
+   "coef": 0.5613
+  },
+  {
+   "feature": "animals",
+   "kind": "w",
+   "coef": 0.5608
+  }
+ ],
+ "kmr4": [
+  {
+   "feature": "john laws",
+   "kind": "w",
+   "coef": 0.6676
+  },
+  {
+   "feature": "-----",
+   "kind": "c",
+   "coef": 0.6343
+  },
+  {
+   "feature": "---",
+   "kind": "c",
+   "coef": 0.587
+  },
+  {
+   "feature": "----",
+   "kind": "c",
+   "coef": 0.5786
+  },
+  {
+   "feature": "intention was",
+   "kind": "w",
+   "coef": 0.5212
+  },
+  {
+   "feature": "was learning",
+   "kind": "w",
+   "coef": 0.5212
+  },
+  {
+   "feature": "my sole",
+   "kind": "w",
+   "coef": 0.5212
+  },
+  {
+   "feature": "sole intention",
+   "kind": "w",
+   "coef": 0.5212
+  },
+  {
+   "feature": "learning to",
+   "kind": "w",
+   "coef": 0.5212
+  },
+  {
+   "feature": "learning",
+   "kind": "w",
+   "coef": 0.4827
+  },
+  {
+   "feature": "to fly",
+   "kind": "w",
+   "coef": 0.4687
+  },
+  {
+   "feature": "- \"",
+   "kind": "c",
+   "coef": 0.4686
+  },
+  {
+   "feature": "-- \"",
+   "kind": "c",
+   "coef": 0.4609
+  }
+ ],
+ "livesey": [
+  {
+   "feature": "|> ",
+   "kind": "c",
+   "coef": 1.6435
+  },
+  {
+   "feature": "\n|> ",
+   "kind": "c",
+   "coef": 1.3782
+  },
+  {
+   "feature": "\n|>",
+   "kind": "c",
+   "coef": 1.3708
+  },
+  {
+   "feature": " |>",
+   "kind": "c",
+   "coef": 0.9858
+  },
+  {
+   "feature": " |> ",
+   "kind": "c",
+   "coef": 0.9758
+  },
+  {
+   "feature": "|> >",
+   "kind": "c",
+   "coef": 0.8634
+  },
+  {
+   "feature": "> >",
+   "kind": "c",
+   "coef": 0.857
+  },
+  {
+   "feature": "> |>",
+   "kind": "c",
+   "coef": 0.8035
+  },
+  {
+   "feature": "> |> ",
+   "kind": "c",
+   "coef": 0.8027
+  },
+  {
+   "feature": "|> |",
+   "kind": "c",
+   "coef": 0.7996
+  },
+  {
+   "feature": "|> |>",
+   "kind": "c",
+   "coef": 0.7996
+  },
+  {
+   "feature": "livesey",
+   "kind": "w",
+   "coef": 0.7911
+  },
+  {
+   "feature": "in article",
+   "kind": "w",
+   "coef": 0.7598
+  },
+  {
+   "feature": "sgi com",
+   "kind": "w",
+   "coef": 0.7432
+  }
+ ],
+ "mathew": [
+  {
+   "feature": "mathew",
+   "kind": "w",
+   "coef": 1.9455
+  },
+  {
+   "feature": "writes",
+   "kind": "w",
+   "coef": 0.7694
+  },
+  {
+   "feature": "athew",
+   "kind": "c",
+   "coef": 0.6068
+  },
+  {
+   "feature": " math",
+   "kind": "c",
+   "coef": 0.5968
+  },
+  {
+   "feature": "mathe",
+   "kind": "c",
+   "coef": 0.5929
+  },
+  {
+   "feature": "math",
+   "kind": "c",
+   "coef": 0.5788
+  },
+  {
+   "feature": "thew",
+   "kind": "c",
+   "coef": 0.5786
+  },
+  {
+   "feature": "hew",
+   "kind": "c",
+   "coef": 0.5728
+  },
+  {
+   "feature": "objective",
+   "kind": "w",
+   "coef": 0.5603
+  },
+  {
+   "feature": "re",
+   "kind": "w",
+   "coef": 0.4839
+  },
+  {
+   "feature": " mat",
+   "kind": "c",
+   "coef": 0.4749
+  },
+  {
+   "feature": "athe",
+   "kind": "c",
+   "coef": 0.4709
+  },
+  {
+   "feature": ". mat",
+   "kind": "c",
+   "coef": 0.4561
+  },
+  {
+   "feature": "therefore",
+   "kind": "w",
+   "coef": 0.4162
+  }
+ ],
+ "maynard": [
+  {
+   "feature": "rm",
+   "kind": "w",
+   "coef": 0.723
+  },
+  {
+   "feature": "player",
+   "kind": "w",
+   "coef": 0.6884
+  },
+  {
+   "feature": "as always",
+   "kind": "w",
+   "coef": 0.5626
+  },
+  {
+   "feature": "always rm",
+   "kind": "w",
+   "coef": 0.5626
+  },
+  {
+   "feature": "cordially",
+   "kind": "w",
+   "coef": 0.5626
+  },
+  {
+   "feature": "cordially as",
+   "kind": "w",
+   "coef": 0.5626
+  },
+  {
+   "feature": "always",
+   "kind": "w",
+   "coef": 0.5409
+  },
+  {
+   "feature": "hockey",
+   "kind": "w",
+   "coef": 0.5249
+  },
+  {
+   "feature": "the leafs",
+   "kind": "w",
+   "coef": 0.4892
+  },
+  {
+   "feature": "the game",
+   "kind": "w",
+   "coef": 0.4862
+  }
+ ],
+ "mcovingt": [
+  {
+   "feature": "easter",
+   "kind": "w",
+   "coef": 0.7367
+  },
+  {
+   "feature": "allergy",
+   "kind": "w",
+   "coef": 0.5957
+  },
+  {
+   "feature": "christians",
+   "kind": "w",
+   "coef": 0.5308
+  },
+  {
+   "feature": "commitment",
+   "kind": "w",
+   "coef": 0.5293
+  },
+  {
+   "feature": "can get",
+   "kind": "w",
+   "coef": 0.4967
+  },
+  {
+   "feature": "father",
+   "kind": "w",
+   "coef": 0.4656
+  },
+  {
+   "feature": "wiring",
+   "kind": "w",
+   "coef": 0.422
+  },
+  {
+   "feature": "nobody",
+   "kind": "w",
+   "coef": 0.3865
+  },
+  {
+   "feature": "marriage",
+   "kind": "w",
+   "coef": 0.3625
+  }
+ ],
+ "nsmca": [
+  {
+   "feature": "alaska",
+   "kind": "w",
+   "coef": 1.2054
+  },
+  {
+   "feature": "acad3 alaska",
+   "kind": "w",
+   "coef": 1.0636
+  },
+  {
+   "feature": "just jacked",
+   "kind": "w",
+   "coef": 1.0636
+  },
+  {
+   "feature": "jacked",
+   "kind": "w",
+   "coef": 1.0636
+  },
+  {
+   "feature": "nsmca acad3",
+   "kind": "w",
+   "coef": 1.0636
+  },
+  {
+   "feature": "adams nsmca",
+   "kind": "w",
+   "coef": 1.0636
+  },
+  {
+   "feature": "alaska edu",
+   "kind": "w",
+   "coef": 1.0636
+  },
+  {
+   "feature": "edu not",
+   "kind": "w",
+   "coef": 1.0636
+  },
+  {
+   "feature": "michael adams",
+   "kind": "w",
+   "coef": 1.0557
+  },
+  {
+   "feature": "high just",
+   "kind": "w",
+   "coef": 1.0551
+  },
+  {
+   "feature": "not high",
+   "kind": "w",
+   "coef": 1.0308
+  },
+  {
+   "feature": "michael",
+   "kind": "w",
+   "coef": 1.0104
+  }
+ ],
+ "sandvik": [
+  {
+   "feature": "com alink",
+   "kind": "w",
+   "coef": 1.0973
+  },
+  {
+   "feature": "alink ksand",
+   "kind": "w",
+   "coef": 1.0973
+  },
+  {
+   "feature": "private activities",
+   "kind": "w",
+   "coef": 1.0973
+  },
+  {
+   "feature": "activities on",
+   "kind": "w",
+   "coef": 1.0973
+  },
+  {
+   "feature": "ksand private",
+   "kind": "w",
+   "coef": 1.0973
+  },
+  {
+   "feature": "sandvik newton",
+   "kind": "w",
+   "coef": 1.0727
+  },
+  {
+   "feature": "apple com",
+   "kind": "w",
+   "coef": 1.0727
+  },
+  {
+   "feature": "newton apple",
+   "kind": "w",
+   "coef": 1.0727
+  },
+  {
+   "feature": "cheers",
+   "kind": "w",
+   "coef": 1.0685
+  },
+  {
+   "feature": "cheers kent",
+   "kind": "w",
+   "coef": 1.0685
+  },
+  {
+   "feature": "newton",
+   "kind": "w",
+   "coef": 1.0601
+  },
+  {
+   "feature": "kent sandvik",
+   "kind": "w",
+   "coef": 1.0535
+  }
+ ],
+ "sera": [
+  {
+   "feature": "armenian",
+   "kind": "w",
+   "coef": 0.891
+  },
+  {
+   "feature": "turkish",
+   "kind": "w",
+   "coef": 0.7343
+  },
+  {
+   "feature": "armenians",
+   "kind": "w",
+   "coef": 0.7276
+  },
+  {
+   "feature": "armenia",
+   "kind": "w",
+   "coef": 0.648
+  },
+  {
+   "feature": "soviet",
+   "kind": "w",
+   "coef": 0.5788
+  },
+  {
+   "feature": "the armenian",
+   "kind": "w",
+   "coef": 0.5385
+  },
+  {
+   "feature": "the turks",
+   "kind": "w",
+   "coef": 0.4564
+  },
+  {
+   "feature": "soviet armenia",
+   "kind": "w",
+   "coef": 0.4202
+  },
+  {
+   "feature": "turks and",
+   "kind": "w",
+   "coef": 0.4197
+  },
+  {
+   "feature": "genocide",
+   "kind": "w",
+   "coef": 0.4173
+  },
+  {
+   "feature": " arm",
+   "kind": "c",
+   "coef": 0.4127
+  },
+  {
+   "feature": "extermination",
+   "kind": "w",
+   "coef": 0.4086
+  },
+  {
+   "feature": "the armenians",
+   "kind": "w",
+   "coef": 0.4072
+  },
+  {
+   "feature": "rmeni",
+   "kind": "c",
+   "coef": 0.4034
+  }
+ ],
+ "strnlght": [
+  {
+   "feature": "clipper",
+   "kind": "w",
+   "coef": 0.9323
+  },
+  {
+   "feature": "court order",
+   "kind": "w",
+   "coef": 0.7915
+  },
+  {
+   "feature": "the government",
+   "kind": "w",
+   "coef": 0.7296
+  },
+  {
+   "feature": "government",
+   "kind": "w",
+   "coef": 0.6742
+  },
+  {
+   "feature": "holland",
+   "kind": "w",
+   "coef": 0.5865
+  },
+  {
+   "feature": "secure",
+   "kind": "w",
+   "coef": 0.5755
+  },
+  {
+   "feature": "crypto",
+   "kind": "w",
+   "coef": 0.573
+  },
+  {
+   "feature": ". dav",
+   "kind": "c",
+   "coef": 0.5705
+  },
+  {
+   "feature": "avid",
+   "kind": "c",
+   "coef": 0.5605
+  },
+  {
+   "feature": "david",
+   "kind": "c",
+   "coef": 0.5605
+  },
+  {
+   "feature": " davi",
+   "kind": "c",
+   "coef": 0.5525
+  }
+ ]
+}

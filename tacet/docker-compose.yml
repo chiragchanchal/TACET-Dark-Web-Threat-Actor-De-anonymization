@@ -1,0 +1,16 @@
+services:
+  tacet:
+    build: .
+    container_name: tacet
+    ports:
+      - "4000:4000"
+    environment:
+      - PORT=4000
+      - TACET_SECRET=change-me-in-production
+      - CORS_ORIGIN=*
+    volumes:
+      - tacet-data:/app/server/data
+    restart: unless-stopped
+
+volumes:
+  tacet-data:

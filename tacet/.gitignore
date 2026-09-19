@@ -1,0 +1,12 @@
+node_modules/
+dist/
+server/data/store.json
+server/data/tacet.db
+server/data/tacet.db-shm
+server/data/tacet.db-wal
+server/data/uploads/
+__pycache__/
+*.pyc
+*.log
+.env
+.DS_Store

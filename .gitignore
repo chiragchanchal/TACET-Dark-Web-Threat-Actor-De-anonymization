@@ -1,0 +1,35 @@
+# Dependencies
+node_modules/
+*/node_modules/
+web/node_modules/
+server/node_modules/
+qa/node_modules/
+
+# Production builds
+dist/
+*/dist/
+web/dist/
+
+# SQLite Databases & Local Storage
+*.db
+*.db-shm
+*.db-wal
+server/data/*.db*
+server/data/store.json
+server/data/uploads/
+
+# Environment & Secret files
+.env
+.env.*
+*.env
+
+# Python artifacts
+__pycache__/
+*.pyc
+*.pyo
+
+# System & Editor files
+.kilo/
+.DS_Store
+Thumbs.db
+*.log

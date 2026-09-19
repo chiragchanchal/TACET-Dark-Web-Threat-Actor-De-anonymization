@@ -1,0 +1,12 @@
+# TACET stylometry training stack (SIH26151)
+# Install:  python -m pip install -r ml/requirements.txt
+# Train:    python ml/train.py        (writes artifacts to server/model/)
+scikit-learn>=1.4
+numpy>=1.26
+scipy>=1.11
+joblib>=1.3
+pandas>=2.0
+
+# Optional: transformer embeddings (RoBERTa) path for production
+# torch>=2.2 --index-url https://download.pytorch.org/whl/cpu
+# transformers>=4.40

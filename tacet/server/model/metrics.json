@@ -1,0 +1,135 @@
+{
+  "method": "char-ngram(3-5)+word(1-2) TF-IDF, LogisticRegression (C=1.5)",
+  "corpus": "20 Newsgroups (real Usenet posts by real authors) \u2014 server/ml/corpus-20news/authors.json",
+  "trainedAt": "2026-09-18T07:34:46.590263+00:00",
+  "nDocuments": 751,
+  "nAuthors": 20,
+  "nFeatures": 89401,
+  "cvAccuracy": 0.8615011037527595,
+  "cvAccuracyStd": 0.008036387382724093,
+  "cvF1Macro": 0.845972984565065,
+  "heldOutAccuracy": 0.8278145695364238,
+  "heldOutF1Macro": 0.7902066715534208,
+  "perClass": {
+    "adam": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "support": 6.0
+    },
+    "andy": {
+      "precision": 1.0,
+      "recall": 0.3333333333333333,
+      "f1": 0.5,
+      "support": 6.0
+    },
+    "brian": {
+      "precision": 1.0,
+      "recall": 0.3333333333333333,
+      "f1": 0.5,
+      "support": 6.0
+    },
+    "cramer": {
+      "precision": 0.7272727272727273,
+      "recall": 1.0,
+      "f1": 0.8421052631578947,
+      "support": 8.0
+    },
+    "egreen": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "support": 6.0
+    },
+    "golchowy": {
+      "precision": 0.8181818181818182,
+      "recall": 1.0,
+      "f1": 0.9,
+      "support": 9.0
+    },
+    "gtoal": {
+      "precision": 0.6666666666666666,
+      "recall": 0.5714285714285714,
+      "f1": 0.6153846153846154,
+      "support": 7.0
+    },
+    "henry": {
+      "precision": 0.4166666666666667,
+      "recall": 1.0,
+      "f1": 0.5882352941176471,
+      "support": 10.0
+    },
+    "i3150101": {
+      "precision": 0.75,
+      "recall": 1.0,
+      "f1": 0.8571428571428571,
+      "support": 6.0
+    },
+    "jake": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "support": 8.0
+    },
+    "keith": {
+      "precision": 0.9090909090909091,
+      "recall": 1.0,
+      "f1": 0.9523809523809523,
+      "support": 10.0
+    },
+    "kmr4": {
+      "precision": 1.0,
+      "recall": 0.6666666666666666,
+      "f1": 0.8,
+      "support": 6.0
+    },
+    "livesey": {
+      "precision": 0.9090909090909091,
+      "recall": 1.0,
+      "f1": 0.9523809523809523,
+      "support": 10.0
+    },
+    "mathew": {
+      "precision": 1.0,
+      "recall": 0.5714285714285714,
+      "f1": 0.7272727272727273,
+      "support": 7.0
+    },
+    "maynard": {
+      "precision": 1.0,
+      "recall": 0.6666666666666666,
+      "f1": 0.8,
+      "support": 6.0
+    },
+    "mcovingt": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "support": 6.0
+    },
+    "nsmca": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "support": 7.0
+    },
+    "sandvik": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "support": 10.0
+    },
+    "sera": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "support": 10.0
+    },
+    "strnlght": {
+      "precision": 0.8333333333333334,
+      "recall": 0.7142857142857143,
+      "f1": 0.7692307692307693,
+      "support": 7.0
+    }
+  }
+}
