@@ -1,0 +1,10 @@
+{
+  "name": "tacet-workspace",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "npm --prefix tacet/web install && npm --prefix tacet/web run build",
+    "start": "npm --prefix tacet/server start"
+  }
+}

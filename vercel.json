@@ -1,0 +1,11 @@
+{
+  "": "https://openapi.vercel.sh/vercel.json",
+  "buildCommand": "npm --prefix tacet/web install && npm --prefix tacet/web run build",
+  "outputDirectory": "tacet/web/dist",
+  "rewrites": [
+    {
+      "source": "/(.*)",
+      "destination": "/index.html"
+    }
+  ]
+}
