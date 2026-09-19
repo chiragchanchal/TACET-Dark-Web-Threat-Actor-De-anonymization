@@ -4,7 +4,7 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "build": "npm --prefix tacet/web install && npm --prefix tacet/web run build",
+    "build": "node build.mjs",
     "start": "npm --prefix tacet/server start"
   }
 }
