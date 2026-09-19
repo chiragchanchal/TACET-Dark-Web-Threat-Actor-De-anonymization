@@ -321,11 +321,15 @@ export async function api(path, opts = {}) {
     }
 
     if (!resp.ok) {
-      if (resp.status === 404 || resp.status === 502 || resp.status === 503) {
+      // 405 (Vercel static POST rejected), 404, 403, 500+ fallback to demo dataset
+      if (resp.status === 405 || resp.status === 404 || resp.status === 403 || resp.status >= 500) {
         console.warn(`[TACET API] Status ${resp.status} on ${endpoint}, falling back to demo dataset.`);
         return handleDemoFallback(path, opts);
       }
-      const data = await resp.json().catch(() => ({}));
+      const data = await resp.json().catch(() => null);
+      if (!data || !data.error) {
+        return handleDemoFallback(path, opts);
+      }
       throw new Error(data.error || `Request failed: ${resp.status}`);
     }
 
